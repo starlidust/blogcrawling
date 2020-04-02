@@ -2,7 +2,14 @@
 
 네이버 블로그검색 크롤링을 통해 "검색어"가 등장한 블로그를 크롤링
 
-# 주 사용합수 naver_blog_crawling
+# Update
+ * 20-04-02 v1.0.1
+    저장파일에 날짜추가  
+    del_outword에 제외문자반복변경 추가 :[^-]  
+    time_change에 일자 처음 월로 통일  ex) 2017-01-01
+    
+
+# 주 사용함수 naver_blog_crawling
 naver_blog_crawling(keyword, start_num=1, end_num=101,date_option=0,date_from='',date_to='',save = True)
 
     네이버 블로그 크롤링 함수
