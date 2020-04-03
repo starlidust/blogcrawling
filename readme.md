@@ -22,7 +22,7 @@ naver_blog_crawling(keyword, start_num=1, end_num=101,date_option=0,date_from=''
 
     네이버 블로그 크롤링 함수
     네이버 블로그 검색결과를 크롤링하며, 1페이지당 10개씩을 검색한다
-    
+```    
     keyword : string
      검색하고 싶은 키워드를 넣는다 
      "keyword +필수어" 형태로 필수단어 추가 가능
@@ -39,6 +39,6 @@ naver_blog_crawling(keyword, start_num=1, end_num=101,date_option=0,date_from=''
      date_option이 8일때 사용 검색 마지막일자를 지정
     save : bool (default = True)
      csv로 저장 여부 결정
-
+```
 # 참고
 [네이버블로그크롤러](https://github.com/xotrs/naver-blog-crawler)
