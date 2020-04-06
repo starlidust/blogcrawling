@@ -14,6 +14,11 @@
     --확인사항--
     모든 마을 13개에서 약 600번대 이후 중복에러 발생 -> drop_duplicate 필수 (원인파악필요)
     del_outword에 \로 시작되는 예외값 계속발생 -> 정규표현식으로 제거 필요 
+* 20-04-06 v1.0.2
+    크롤링결과 중복값제거 (drop_duplicates)
+    결과저장 모두 utf-8
+    --확인사항--
+    komoran 사용할때 가끔씩 java.lang.NullPointerException: java.lang.NullPointerException 에러발생 회피방법 알아볼것 
 
     
 
@@ -42,3 +47,4 @@ naver_blog_crawling(keyword, start_num=1, end_num=101,date_option=0,date_from=''
 ```
 # 참고
 [네이버블로그크롤러](https://github.com/xotrs/naver-blog-crawler)
+
