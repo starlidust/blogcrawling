@@ -19,6 +19,9 @@
     결과저장 모두 utf-8
     --확인사항--
     komoran 사용할때 가끔씩 java.lang.NullPointerException: java.lang.NullPointerException 에러발생 회피방법 알아볼것 
+* 20-04-07 v1.0.3
+    komoran에러 해결 -> 공백으로 있는 문자열 처리
+    Okt로 명사+형용사코드 생성
 
     
 
