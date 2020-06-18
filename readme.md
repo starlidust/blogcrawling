@@ -38,11 +38,12 @@ filtering을 진행시 4단계부터 진행하면 됩니다. (4단계에서도 f
     따라서 필수단어를 넣는 것이 중요하며, 결과에 대한 filtering이 중요  
 2. JAVA hip Memory error
     3단계 진행중에 자바메모리 에러가 발생할 수 있습니다.  
-    현재 (max_heap_size=5120)로 hip_size를 5기가로 배정해두었고 1만 5천건 단위로 분할하여 작업을 진행합니다.   
+    현재 (max_heap_size=5120)로 hip_size를 5기가로 배정해두었고 1만 5천건 단위로 분할하여 작업을 진행   
     혹시 메모리 에러가 발생하면 hip_size를 조절하거나, 분할 단위를 더 축소하는 것이 좋을듯 합니다.
+3. 검색한 결과 수 대비 결과량이 적을 때 
+    블로그 내부적으로 내용을 복사해가는 것을 방지해놨기 때문으로 추정. 이에 딱히 대처방법은 없을것으로 보임
 
-
-# 주 사용함수 naver_blog_crawling
+# 주요 함수 naver_blog_crawling
 def naver_blog_crawling(keyword, start_num=1, end_num=101, date_option=0, date_from='', date_to='', save=True):
     '''네이버 블로그 크롤링 함수
     네이버 블로그 검색결과를 크롤링하며, 1페이지당 10개씩을 검색한다
@@ -67,6 +68,11 @@ def naver_blog_crawling(keyword, start_num=1, end_num=101, date_option=0, date_f
     real_length : int
         crawling_df의 row수 
     '''
+
+# 업데이트 종료후 후기
+    꾸준하게 업데이트 해왔던 코드기 때문에 다소 애착이 있고 나중에 활용할 기회가 다시금 있기를 바람.  
+    아쉬운 점은 Okt의 사용자사전을 사용법을 잘 익히지 못해서 적용을 못했다는 점
+    그리고 텍스트마이닝은 정말 해도 해도 끝이 없다는 느낌...
 
 # 참고
 [네이버블로그크롤러](https://github.com/xotrs/naver-blog-crawler)
