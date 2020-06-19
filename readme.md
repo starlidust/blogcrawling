@@ -85,6 +85,8 @@ def naver_blog_crawling(keyword, start_num=1, end_num=101, date_option=0, date_f
     꾸준하게 업데이트 해왔던 코드기 때문에 다소 애착이 있고 나중에 활용할 기회가 다시금 있기를 바람.  
     아쉬운 점은 Okt의 사용자사전을 사용법을 잘 익히지 못해서 적용을 못했다는 점
     그리고 텍스트마이닝은 정말 해도 해도 끝이 없다는 느낌...
+    
+    끝나도 끝이아니다...!
 
 # 참고
 [네이버블로그크롤러](https://github.com/xotrs/naver-blog-crawler)
@@ -142,3 +144,5 @@ def naver_blog_crawling(keyword, start_num=1, end_num=101, date_option=0, date_f
 * 20-06-17 네트워크분석   
     네트워크분석 최적화 진행  
     1차적으로 마무리  
+* 20-06-19 4단계 수정
+    merge할 keyword가 없는 경우 누락되는 경우 수정
