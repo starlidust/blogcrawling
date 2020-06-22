@@ -3,7 +3,7 @@
 네이버 블로그검색 크롤링을 통해 "검색어"가 등장한 블로그를 크롤링
 
 ## 사전설치
-* 크롤링(beautifiulsoup, request)
+* 크롤링(beautifiulsoup, request)  
 !pip install beautifulsoup4  
 !pip install requests  
 * 자연어 처리(konply, ckonlpy)  
