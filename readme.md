@@ -56,6 +56,7 @@ filtering을 진행시 4단계부터 진행하면 됩니다. (4단계에서도 f
     블로그 내부적으로 내용을 복사해가는 것을 방지해놨기 때문으로 추정. 이에 딱히 대처방법은 없을것으로 보임
 
 # 주요 함수 naver_blog_crawling
+```python 
 def naver_blog_crawling(keyword, start_num=1, end_num=101, date_option=0, date_from='', date_to='', save=True):
     '''네이버 블로그 크롤링 함수
     네이버 블로그 검색결과를 크롤링하며, 1페이지당 10개씩을 검색한다
@@ -80,6 +81,7 @@ def naver_blog_crawling(keyword, start_num=1, end_num=101, date_option=0, date_f
     real_length : int
         crawling_df의 row수 
     '''
+```
 
 # 업데이트 종료후 후기
     꾸준하게 업데이트 해왔던 코드기 때문에 다소 애착이 있고 나중에 활용할 기회가 다시금 있기를 바람.  
