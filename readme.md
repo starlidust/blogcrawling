@@ -8,7 +8,6 @@
 !pip install requests  
 * 자연어 처리(konply, ckonlpy)  
 !pip install konply  
-!pip install ckonlpy  
 * 시각화(wordcloud, networkx)  
 !pip install wordcloud  
 !pip install networkx  
